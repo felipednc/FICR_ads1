@@ -1,6 +1,31 @@
+@keyframes botao {
+    0% {background-color: red;}
+    20% {background-color: greenyellow;}
+    40% {background-color: hotpink;}
+    60% {background-color: navajowhite;}
+    80% {background-color: yellow;}
+    100% {background-color: blue;}
+}
+@keyframes quadrado {
+    0% {background-color: white;}
+    25% {background-color:rgb(225, 235, 142);}
+    50% {background-color: rgb(198, 228, 68);}
+    75% {background-color: rgb(216, 235, 52);}
+    100% {background-color: rgb(217, 255, 0);}
+}
+
 
 #cardnv {
     display: none;
 }
 
+#lost{
+    background-color: transparent;
+}
 
+
+#lost{
+    animation-name: botao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
